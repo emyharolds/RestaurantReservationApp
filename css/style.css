@@ -1,0 +1,223 @@
+body{
+	background: #BB7A46;
+	color: #717272;
+	font-size: 16px;
+	font-family: arial, sans-serif;
+	line-height: 1.5;
+	margin:auto;
+}
+
+.mainbody{
+	margin: 0 auto;
+	width: 80%;
+	clear: both;
+	background-color: #FFF;	
+}
+
+.title{
+	text-align: left;
+	color: #F1A93B;
+	font-size: 40px;
+	padding: 15px 15px 0 15px;
+	font-weight: bolder;
+}
+
+.title span{
+	display:block;
+	text-align: left;
+	color: #CC0000;
+	font-style: italic;
+	font-size: 15px;
+}
+
+.navlogin{
+	text-align: right;
+	padding: 0 15px;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:link, a:visited {
+	color: #CF5C3F;
+}
+
+a:hover, a:active {
+	color: #fff;
+	background-color: #CF5C3F;
+}
+header nav {
+	background-color: #665;
+	height: 40px;
+}
+
+header nav ul {
+	list-style: none;
+	margin: 0 auto;	
+}
+
+header nav ul li {
+	float: left;
+	display: inline;
+}
+
+header nav a:link, header nav a:visited {
+	color: #fff;
+	display: inline-block;
+	padding: 10px 25px;	
+	height: 20px;
+}
+
+header nav a:hover, header nav a:active,
+header nav .active a:link, header nav .active a:visited {
+	background-color: #BB7A46;
+	text-shadow: none;
+}
+
+.headerimage {
+	background: url(myheader2.jpg);
+	background-repeat: no-repeat;
+	background-position: 100% 0%;
+	width: 100%;
+	height: 300px;
+}
+
+.sidenav{
+	width: 18%;
+	float: left;
+	background-color: #fff;
+	padding: 2% 5%;
+	margin: 2% 0 2%;
+}
+
+.content{
+	width: 60%;
+	float: right;
+	background-color: #fff;
+	padding: 2% 5%;
+	margin: 2% 0 2%;
+}
+
+footer{
+	width: 100%;
+	float: left;
+	background-color: #665;
+	margin: 2% 0;
+}
+
+footer p{
+	width: 92%;
+	margin: 2% auto;
+	color: #fff;       
+}
+
+/*styling the forms */
+form > input, form > select{
+	width: 100%;
+	display: inline-block;
+	padding: 8px 20px;
+	border: 1px solid #ccc;
+	margin: 6px 0px;
+	box-sizing: border-box;
+	}
+	
+span{
+	color: #CC0000;
+}
+
+.formheader{
+	font-size: 30px;
+	text-align: center;
+	color: #CC0000;
+	font-style: bold;
+}
+
+.signupbtn  {
+    background-color: #4CAF50;   
+	width: 40%;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {	
+    background-color: #CC0000;
+	width: 45%;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+button {
+	color: #fff;
+    padding: 10px 10px;
+    margin: 5px 10px;
+    border: none;
+    cursor: pointer;
+    width: 70%;
+	background-color: #BB7A46;
+}
+
+#resetBtn {
+	background-color: #CC0000;
+	color: #fff;
+}
+
+#startBtn {
+	background-color: #4CAF50;
+	color: #fff;
+}
+
+#rollBtn {
+	background-color: blue;
+	color: #fff;
+}
+
+#gameLimitLabel,#yourScoreLabel,#computerScoreLabel,#yourDiceLabel,#computerDiceLabel,#scoreLabel,
+#output,#winnerText,#yourTally,#computerTally{
+	font-size: 25px;
+	color: #CC0000;
+	font-weight: bold;
+}
+
+#errMsgMin,#errMsgMax,#errMsgLimit{
+	font-size: 15px;
+	color: #CC0000;
+	font-style: italic;
+}
+
+.block{
+    margin: 5px 15px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 45%;
+}
+
+
+.block img {
+    width: 100%;
+    height: auto;
+}
+
+.block-text {
+    padding: 1px;
+    text-align: center;
+}
+
+.mainText{
+	font-weight: bolder;
+	font-size: 1.5rem;
+	color: #F1A93B;
+}
+
+.subText{
+	font-weight: bolder;
+	font-style: italic;
+	color: #CC0000;
+	font-size: 15px;
+}
+
+.login_content{
+	width: 60%;
+	float: right;
+	background-color: #fff;
+	padding: 2% 5%;
+	margin: 2% 0 2%;
+}
